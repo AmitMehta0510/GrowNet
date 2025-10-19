@@ -13,7 +13,7 @@ const UserSchema = mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: trusted,
+    unique: true,
   },
   active: {
     type: Boolean,

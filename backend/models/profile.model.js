@@ -6,7 +6,7 @@ const educationSchema = new mongoose.Schema({
     default: "",
   },
   degree: {
-    type: stringAt,
+    type: String,
     default: "",
   },
   fieldOfStudy: {
